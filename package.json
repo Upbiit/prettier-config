@@ -1,0 +1,39 @@
+{
+  "name": "@upbiit/prettier-config",
+  "version": "2.0.0",
+  "description": "Prettier configuration for TypeScript, Angular, Node.js, and Gherkin/Cucumber projects - compatible with @upbiit/eslint-config",
+  "main": ".prettierrc",
+  "files": [
+    ".prettierrc",
+    ".prettierignore",
+    "README.md",
+    "USAGE.md",
+    "GHERKIN_GUIDE.md"
+  ],
+  "keywords": [
+    "prettier",
+    "typescript",
+    "angular",
+    "nodejs",
+    "gherkin",
+    "cucumber",
+    "bdd",
+    "formatter",
+    "code-style",
+    "prettier-config"
+  ],
+  "author": "Nicholas Daley-Okoye",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/upbiit/prettier-config"
+  },
+  "peerDependencies": {
+    "prettier": "^3.0.0",
+    "prettier-plugin-gherkin": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "prettier-plugin-gherkin": "^1.0.0"
+  }
+}

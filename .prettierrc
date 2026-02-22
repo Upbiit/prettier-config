@@ -1,0 +1,33 @@
+{
+  "experimentalTernaries": true,
+  "experimentalOperatorPosition": true,
+  "trailingComma": "all",
+  "printWidth": 80,
+  "tabWidth": 2,
+  "useTabs": false,
+  "semi": true,
+  "singleQuote": true,
+  "objectWrap": "preserve",
+  "bracketSameLine": false,
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "quoteProps": "as-needed",
+  "jsxSingleQuote": false,
+  "proseWrap": "preserve",
+  "htmlWhitespaceSensitivity": "strict",
+  "embeddedLanguageFormatting": "auto",
+  "singleAttributePerLine": false,
+  "overrides": [
+    {
+      "files": "*.feature",
+      "options": {
+        "parser": "cucumber",
+        "printWidth": 125,
+        "tabWidth": 2,
+        "useTabs": false,
+        "endOfLine": "lf"
+      }
+    }
+  ]
+}
